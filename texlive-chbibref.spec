@@ -1,3 +1,9 @@
+# revision 17120
+# category Package
+# catalog-ctan /macros/latex/contrib/chbibref
+# catalog-date 2010-02-23 16:16:11 +0100
+# catalog-license lppl
+# catalog-version 1.0
 Name:		texlive-chbibref
 Version:	1.0
 Release:	1
@@ -39,6 +45,7 @@ and report.cls, and \refname is used in article.cls.).
 %{_texmfdistdir}/tex/latex/chbibref/chbibref.sty
 %doc %{_texmfdistdir}/doc/latex/chbibref/chbibref.pdf
 %doc %{_texmfdistdir}/doc/latex/chbibref/chbibref.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -49,3 +56,5 @@ and report.cls, and \refname is used in article.cls.).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
