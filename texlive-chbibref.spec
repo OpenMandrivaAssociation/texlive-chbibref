@@ -1,6 +1,6 @@
 Name:		texlive-chbibref
 Version:	17120
-Release:	1
+Release:	2
 Summary:	Change the Bibliography/References title
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/chbibref
