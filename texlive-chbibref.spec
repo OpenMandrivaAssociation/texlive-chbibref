@@ -3,7 +3,7 @@ Version:	17120
 Release:	2
 Summary:	Change the Bibliography/References title
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/chbibref
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/chbibref
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chbibref.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chbibref.doc.r%{version}.tar.xz
